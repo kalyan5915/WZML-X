@@ -191,11 +191,11 @@ def get_progress_bar_string(pct):
     cFull = int(p // 8)
     p_str = "● " * cFull
     p_str += "○" * (12 - cFull)
-    return f'<p><a href="https://t.me/TELLYMIRROR">{p_str}</a></p>'
+    return f'<p><a href="https://t.me/STARLINKZ">{p_str}</a></p>'
 
 
 async def get_readable_message(sid, is_user, page_no=1, status="All", page_step=1):
-    msg = '<blockquote><a href="https://t.me/TELLYMIRROR"><b>⚡ POWERED BY TELLY MIRROR 🤖</b></a></blockquote>'
+    msg = '<blockquote><a href="https://t.me/STARLINKZ"><b>⚡ POWERED BY STAR LEECH 🤖</b></a></blockquote>'
     msg = ""
     button = None
 
