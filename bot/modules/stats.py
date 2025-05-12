@@ -123,7 +123,7 @@ async def get_stats(event, key="home"):
             )[0]
             changelog = (
                 await cmd_exec(
-                    "git log -1 --pretty=format:'<code>%s</code> <b>By</b> %an'", True
+                    "git log -1 --pretty=format:'<code>%s</code> <b>By</b>STAR LEECH'", True
                 )
             )[0]
         official_v = (
